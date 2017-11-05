@@ -21,7 +21,8 @@ It is easily extendable. Feel free to create pull requests!
 ### Installation
 
 - Install all requirements
-- Run `sudo ./setup.sh`
+- Make sure you are able to write to `/opt`
+- Run `./setup.sh`
 
 
 ### Usage
@@ -43,7 +44,7 @@ It is easily extendable. Feel free to create pull requests!
 (c) 2017 - Daniel Jankowski
 
 
-The logo is copyrighted to todoist and does not belong to me.
+The logo is copyrighted by todoist and does not belong to me.
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
