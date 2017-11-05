@@ -1,0 +1,10 @@
+[Unit]
+Description=The todoist-notify daemon
+
+[Service]
+WorkingDirectory=/opt/todoist-notify/
+ExecStart=/opt/todoist-notify/src/todoist-notify.py
+KillMode=mixed
+KillSignal=SIGINT
+ 
+[Install]
