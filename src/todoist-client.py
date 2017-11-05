@@ -1,6 +1,6 @@
 #!/bin/env python3
 #
-# {Project Name}
+# todoist-notify
 #
 # (c) 2017 - Daniel Jankowski
 

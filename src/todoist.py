@@ -1,11 +1,10 @@
 #!/bin/env python3
 #
-# {Project Name}
+# todoist-notify
 #
 # (c) 2017 - Daniel Jankowski
 
 
-import sqlite3
 import time
 
 from pytodoist import todoist
