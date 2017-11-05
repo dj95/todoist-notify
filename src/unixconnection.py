@@ -24,7 +24,7 @@ class TodoistSocketThread(Thread):
         self.stop_event = Event()
 
         # save the unix socket address
-        self.server_address = '/home/neo/.todoist.sock'
+        self.server_address = os.path.expanduser('~/.todoist.sock')
         
         # save the callback to the TodoisDaemon
         self.__callback = callback

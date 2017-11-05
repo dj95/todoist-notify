@@ -23,7 +23,7 @@ def connect():
             )
 
     # save the server address
-    server_address = '/home/neo/.todoist.sock'
+    server_address = os.path.expanduser('~/.todoist.sock')
 
     try:
         # try to connect to the address
@@ -60,7 +60,11 @@ def main():
     Notify.init("Todoist")
 
     # use GdkPixbuf to create the proper image type
-    image = GdkPixbuf.Pixbuf.new_from_file("../assets/logo.png")
+    image = GdkPixbuf.Pixbuf.new_from_file(
+            os.path.dirname(
+                os.path.realpath(__file__)
+                ) + "/../assets/logo.png"
+            )
 
     # connect to the unix socket and save it
     sock = connect()

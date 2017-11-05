@@ -28,7 +28,7 @@ It is easily extendable. Feel free to create pull requests!
 
 - Fill in the credentials in `~/.config/todoist-notify/config.json`
 - Start and enable the systemd-user-service
-- Run `./src/todoist-client.py` in order to display the notifications
+- Run `todoist-client` in order to display the notifications
 
 
 ### TODO
